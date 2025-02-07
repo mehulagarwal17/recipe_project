@@ -1,0 +1,128 @@
+# print("Hello world")
+
+# reverse = name[::-1]
+
+# print(reverse)
+
+# def reverse(s):
+#     result = s[::-1]
+#     print(result)
+
+# name = "mehul"
+
+# name.reversed()
+
+# def biggest(l):
+#     l.sort()
+#     a = len(l)
+#     print("Maximum number is : ")
+#     print(l[a-1])
+
+
+# lists = [4,8,1,86,3,9,0,5]
+
+
+# def palindrome(s):
+#     reverse = s[::-1]
+
+#     if(s == reverse):
+#         print("Palindrome")
+#     else:
+#         print("Not a palindrome")
+
+
+# name = "madam"
+
+# palindrome(name)
+
+# biggest(lists)
+
+
+# num = 0
+
+# def check(i):
+#     if i>0:
+#         print("Positive")
+#     elif i<0:
+#         print("Negative")
+#     else:
+#         print("Zero")
+
+
+# check(num)
+
+# def fact(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n*fact(n-1)
+    
+
+# result = fact(4)
+# print(result)
+
+# def natural(n):
+#     print(list(range(1,n+1)))
+
+
+# natural(6)
+
+# def check(s):
+#     vowel = "aeiouAEIOU"
+#     return s in vowel
+
+# ans = check("a")
+# print(ans)
+
+
+# def table(n):
+#     i = 1
+#     while(i<=10):
+#         print(n," * ",i," = ",n*i)
+#         i+=1
+
+# table(5)
+
+# def check(a,b):
+#     if a == b:
+#         print("Equal")
+#     else:
+#         print("Not equal")
+
+
+# check(5,5)
+
+
+# def smallest(n):
+#     n.sort()
+#     print("Samllest no is : ")
+#     print(n[0])
+
+
+# lists = [4,0,7,1,9,3,6,5]
+
+# smallest(lists)
+
+# lists = [4,1,8,9,2,0]
+
+# lists.sort()
+
+# print("smallest number", lists[0])
+
+# def check(n):
+#     if n%n == 0:
+#         print("It is square number")
+#     else:
+#         print("Not a square")
+
+
+# check()
+
+# print(max(13,7))
+
+def h_to_m(n):
+    print(n*60)
+    print("Minutes")
+
+
+h_to_m(2)
